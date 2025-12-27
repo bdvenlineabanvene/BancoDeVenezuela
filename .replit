@@ -1,0 +1,11 @@
+run = "php -S 0.0.0.0:8000 -t ."
+
+entrypoint = "index.php"
+
+[agent]
+expertMode = true
+
+[[ports]]
+localPort = 8000
+externalPort = 80
+
